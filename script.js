@@ -41,36 +41,36 @@ pium!
 
 
 
-  function recargar() {
-     let disparos = prompt("¡Dispara!");
+function recargar() {
+     let disparos = prompt("¡Dispara!, máximo 7 disparos..");
+     let espacio=" \n";
       switch (disparos) {
         case "1":
-            console.log("pium!\n");
+            console.log(" pium!\n");
             break;
         case "2":
-            console.log("pium!\n","pium!\n");
+            console.log(" pium!\n","pium!\n");
             break;
         case "3":
-            console.log("pium!\n","pium!\n","pium!\n");
+            console.log(" pium!\n","pium!\n","pium!\n");
             break;
         case "4":
-            console.log("pium!\n"," pium!\n","pium!\n","pium!\n");
+            console.log(" pium!\n","pium!\n","pium!\n"," \n","pium!\n");
             break;
         case "5":
-            console.log(" pium!\n","pium!\n"," pium!\n","pium!\n","pium!\n");
+            console.log(" pium!\n","pium!\n","pium!\n","\n","pium!\n","pium!\n");
             break;
         case "6":
-            console.log(" pium!\n","pium!\n","pium!\n"," pium!\n","pium!\n","pium!\n");
+            console.log(" pium!\n","pium!\n","pium!\n"," \n","pium!\n","pium!\n","pium!\n");
             break;
         case "7":
-            console.log(" pium!\n","pium!\n","pium!\n"," pium!\n","pium!\n","pium!\n","pium!\n");
+            console.log(" pium!\n","pium!\n","pium!\n"," \n","pium!\n","pium!\n","pium!\n"," \n","pium!\n");
             break;
         default:
             console.log("Illo me he quedao pillao"); 
      }
     }
  
-
-  console.log(recargar());
+console.log(recargar());
 
   
